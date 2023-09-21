@@ -34,14 +34,18 @@ function generatePassword() {
         charsToUse = charsToUse.concat(specialChars);
     }
 
-    for (var i = 0; i < passLen; i++) {
-        genPass = genPass.concat(charsToUse[Math.floor(Math.random() * charsToUse.length)]);
-        console.log(genPass);
+    if (charsToUse.length > 0) {
+        for (var i = 0; i < passLen; i++) {
+            genPass = genPass.concat(charsToUse[Math.floor(Math.random() * charsToUse.length)]);
+            console.log(genPass);
+        }
+        charsToUse = [];
+    
+        return genPass;
+    } else {
+        alert("You must select at least one type of character.\nPlease try again.")
+        generatePassword();
     }
-
-    charsToUse = [];
-
-    return genPass;
 }
 
 // Write password to the #password input
