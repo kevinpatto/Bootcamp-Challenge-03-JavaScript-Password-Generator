@@ -8,7 +8,7 @@ var charsToUse = [];
 console.log(specialChars);
 
 function getPassLen() {
-    var passLen = prompt("How many letters should your new password be?");
+    var passLen = prompt("How many characters should your new password be?");
     if (passLen < 8 || passLen > 128) {
         alert("Please choose inclusively between 8 and 128 characters");
         getPassLen()
