@@ -39,6 +39,8 @@ function generatePassword() {
         console.log(genPass);
     }
 
+    charsToUse = [];
+
     return genPass;
 }
 
