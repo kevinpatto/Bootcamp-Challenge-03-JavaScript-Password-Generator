@@ -2,12 +2,7 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This project was created to help myself better understand basic JavaScript logic, flow, etc. A basic password generator was a great exercise in using arrays and string methods and logic. This password generator isn't entirely practical, as it is completely random and may generate a password of all the same character (albeit at an extremely low rate), but can be a great place to start. The best password practice would be following [this xkcd comic](https://xkcd.com/936/). I learned how to better use arrays, strings, and methods to accomplish goals, such as concatenating a string of characters to randomly choose from.
 
 ## Installation
 
@@ -17,7 +12,7 @@ N/A
 
 Click the button and navigate through the prompts and confirmations to choose password length and characters used (uppercase letters, lowercase letters, numeric characters and special characters). The password will appear in the middle of the page.
 
-![alt text](./website-image.png)
+![website image](./website-image.png)
 [Link to GitHub Pages website](https://kevinpatto.github.io/Bootcamp-Challenge-03-JavaScript-Password-Generator/)
 
 ## Credits
